@@ -1,0 +1,22 @@
+{
+  "name": "VrigzApplicationTest",
+  "version": "1.0.0",
+  "authors": [
+    "Brigido Alejo"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./resources/assets/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}
