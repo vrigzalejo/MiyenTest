@@ -1,11 +1,11 @@
-<img src="https://raw.githubusercontent.com/vrigzalejo/MiyenTest/master/resources/assets/screenshots/ss1.png" width="200px" height="200px" />
-<img src="https://raw.githubusercontent.com/vrigzalejo/MiyenTest/master/resources/assets/screenshots/ss2.png" width="200px" height="200px" />
-<img src="https://raw.githubusercontent.com/vrigzalejo/MiyenTest/master/resources/assets/screenshots/ss3.png" width="200px" height="200px" />
-<img src="https://raw.githubusercontent.com/vrigzalejo/MiyenTest/master/resources/assets/screenshots/ss4.png" width="200px" height="200px" />
-<img src="https://raw.githubusercontent.com/vrigzalejo/MiyenTest/master/resources/assets/screenshots/ss5.png" width="200px" height="200px" />
-<img src="https://raw.githubusercontent.com/vrigzalejo/MiyenTest/master/resources/assets/screenshots/ss6.png" width="200px" height="200px" />
-<img src="https://raw.githubusercontent.com/vrigzalejo/MiyenTest/master/resources/assets/screenshots/ss7.png" width="200px" height="200px" />
-<img src="https://raw.githubusercontent.com/vrigzalejo/MiyenTest/master/resources/assets/screenshots/ss8.png" width="200px" height="200px" />
+<img src="//raw.githubusercontent.com/vrigzalejo/MiyenTest/master/resources/assets/screenshots/ss1.png" width="200px" height="200px" />
+<img src="//raw.githubusercontent.com/vrigzalejo/MiyenTest/master/resources/assets/screenshots/ss2.png" width="200px" height="200px" />
+<img src="//raw.githubusercontent.com/vrigzalejo/MiyenTest/master/resources/assets/screenshots/ss3.png" width="200px" height="200px" />
+<img src="//raw.githubusercontent.com/vrigzalejo/MiyenTest/master/resources/assets/screenshots/ss4.png" width="200px" height="200px" />
+<img src="//raw.githubusercontent.com/vrigzalejo/MiyenTest/master/resources/assets/screenshots/ss5.png" width="200px" height="200px" />
+<img src="//raw.githubusercontent.com/vrigzalejo/MiyenTest/master/resources/assets/screenshots/ss6.png" width="200px" height="200px" />
+<img src="//raw.githubusercontent.com/vrigzalejo/MiyenTest/master/resources/assets/screenshots/ss7.png" width="200px" height="200px" />
+<img src="//raw.githubusercontent.com/vrigzalejo/MiyenTest/master/resources/assets/screenshots/ss8.png" width="200px" height="200px" />
 
 ## To Install
 
