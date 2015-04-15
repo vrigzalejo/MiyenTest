@@ -1,0 +1,90 @@
+@import "../vendor/materialize/sass/materialize";
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  vertical-align: middle;
+  padding: 15px 0 0 0;
+}
+
+nav {
+  background-color: #003447;
+}
+
+#delete-item {
+  display: none;
+}
+
+body {
+  background-image: url("../img/bg.png");
+  background-repeat: repeat;
+}
+
+.menu, .menu .col-lg-3, .status {
+  padding: 1em;
+}
+
+.menu-list {
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  opacity: 0.6;
+}
+
+.status-list {
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.menu-list:hover {
+  opacity: 1;
+}
+
+.menu-list div span {
+  color: #afafb0;
+}
+
+.dashboard-post-images div .dpi-dashboard {
+  color: #626262;
+  /*font-weight: bold;*/
+}
+
+@media (max-width: 767px) {
+
+  .uploads .row .col img {
+	width: 125px; height: 125px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .uploads .row .col img {
+	width: 125px; height: 125px;
+  }
+
+}
+
+@media (min-width: 993px) {
+
+  .uploads .row .col img {
+	width: 125px; height: 125px;
+  }
+
+}
+
+.uploads .row .col img:hover {
+  -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.uploads .row .col a:hover {
+  cursor: pointer;
+}
+
+.row .col .m6 h4 {
+  color:#2980b9;
+}

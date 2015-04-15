@@ -11,14 +11,39 @@
 |
 */
 
-/*Route::get('/', 'WelcomeController@index');
 
-Route::get('home', 'HomeController@index');
+get( '/', array( 'as' => 'test.index', 'uses' => 'VrigzTestController@index' ) );
+post( '/', array( 'as' => 'test.store', 'uses' => 'VrigzTestController@store' ) );
+delete( '/{id}', array( 'as' => 'test.destroy', 'uses' => 'VrigzTestController@destroy' ) );
 
-Route::controllers([
-	'auth' => 'Auth\AuthController',
-	'password' => 'Auth\PasswordController',
-]);*/
+post( 'upload', array( 'as' => 'test.upload', 'uses' => 'VrigzTestController@upload' ) );
+delete( 'upload/{image}', array( 'as' => 'test.upload_delete', 'uses' => 'VrigzTestController@uploadDelete' ) );
 
-Route::get('/', 'VrigzTestController@index');
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Route::get('/', function() {
+//    $fi = new FilesystemIterator(__DIR__ , FilesystemIterator::SKIP_DOTS);
+//    printf("There were %d Files", iterator_count($fi));
+//
+//    dd( __DIR__ . '../');
+
+//    return (scandir('../public/uploads'));
+
+
+//    return (unlink('../public/uploads/testing.txt'));
+//});

@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.js"],"names":[],"mappings":"AAAA;AACA;AACA;AACA","file":"all.js","sourcesContent":["$( document ).ready( function() {\n\t// the \"href\" attribute of .modal-trigger must specify the modal ID that wants to be triggered\n\t$( '.modal-trigger' ).leanModal();\n} );"],"sourceRoot":"/source/"}

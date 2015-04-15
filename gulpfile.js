@@ -1,5 +1,5 @@
-var elixir = require('laravel-elixir');
-
+var elixir = require( 'laravel-elixir' );
+require( 'laravel-elixir-browserify' );
 /*
  |--------------------------------------------------------------------------
  | Elixir Asset Management
@@ -11,6 +11,23 @@ var elixir = require('laravel-elixir');
  |
  */
 
-elixir(function(mix) {
-    mix.less('app.less');
-});
+elixir( function( mix ) {
+	//mix.less('app.less');
+	mix.sass( 'app.scss' );
+	mix.copy( 'resources/assets/js', 'public/js' );
+
+
+	//mix.browserify( 'mix-materialize.js' );
+	mix.copy( 'resources/assets/vendor/materialize/dist/js/materialize.min.js', 'public/js' );
+	mix.copy( 'resources/assets/vendor/materialize/js', 'public/js' );
+
+
+	mix.copy( 'resources/assets/vendor/materialize/dist/font', 'public/font' );
+
+	mix.copy( 'resources/assets/vendor/jquery/dist/jquery.min.js', 'public/js' );
+	mix.copy( 'resources/assets/vendor/jquery/dist/jquery.min.map', 'public/js' );
+
+
+	mix.copy( 'resources/assets/img', 'public/img' );
+
+} );
