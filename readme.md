@@ -18,29 +18,37 @@
 4) copy this to `.env` file.
 
 ```
-   APP_ENV=local
-   APP_DEBUG=true
-   APP_KEY=zAb5cGRVVwuh9gdJGvYNyd8EcjQD14Wv
-   
-   DB_HOST=localhost
-   DB_DATABASE=YourDatabaseName
-   DB_USERNAME=YourUsername
-   DB_PASSWORD=YourPassword
-   
-   CACHE_DRIVER=file
-   SESSION_DRIVER=file
-   QUEUE_DRIVER=sync
-   
-   MAIL_DRIVER=smtp
-   MAIL_HOST=mailtrap.io
-   MAIL_PORT=2525
-   MAIL_USERNAME=null
-   MAIL_PASSWORD=null
+APP_ENV=local
+APP_DEBUG=true
+APP_KEY=zAb5cGRVVwuh9gdJGvYNyd8EcjQD14Wv
+
+DB_HOST=localhost
+DB_DATABASE=YourDatabaseName
+DB_USERNAME=YourUsername
+DB_PASSWORD=YourPassword
+
+CACHE_DRIVER=file
+SESSION_DRIVER=file
+QUEUE_DRIVER=sync
+
+MAIL_DRIVER=smtp
+MAIL_HOST=mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=null
+MAIL_PASSWORD=null
 ```
 
-4) create any database name. `e.g. VrigzTest`
+* Make sure that your credentials are match in the `.env`*
 
-#### Do the following commands.
+```
+DB_HOST=localhost
+DB_DATABASE=VrigzTest
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+5) Do the following commands.
+
 ```
 bower install
 npm install ( if you get Error: EACCES, execute it with sudo )
@@ -49,12 +57,14 @@ php artisan migrate
 php artisan serve
 ```
 
-5) then go the this link
+6) then go to this link
+
 ```
 http://127.0.0.1:8000/
 ```
 
 #### To compile assets, do this command.
+
 ```
 gulp
 ```
