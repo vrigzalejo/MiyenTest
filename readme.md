@@ -34,7 +34,7 @@
 #### Do the following commands.
 ```
 bower install
-npm install
+npm install ( if you get Error: EACCES, execute it with sudo )
 composer install
 php artisan migrate
 php artisan serve
@@ -44,3 +44,9 @@ php artisan serve
 ```
 http://127.0.0.1:8000/
 ```
+
+#### To compile assets, do this command.
+```
+gulp
+```
+
