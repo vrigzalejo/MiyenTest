@@ -38,7 +38,7 @@ MAIL_USERNAME=null
 MAIL_PASSWORD=null
 ```
 
-* Make sure that your credentials are match in the `.env`*
+* Make sure that your credentials are match in the `.env`
 
 ```
 DB_HOST=localhost
